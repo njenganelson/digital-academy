@@ -1,13 +1,8 @@
-body{
-    background-color: green;
-}
 h1{
     text-align: center;
 }
-p{
-    text-align: center;
+.textCenter{
+    text-decoration: underline;
+    font-family: Georgia;
 }
-.lorem_ipsum{
-        width: 100%;
-        text-align: center;
-}
+
