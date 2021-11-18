@@ -13,13 +13,35 @@ h1{
 .textRight{
     color:green;
 }
-body{
-    background-color:white
-}
-img {
-    display: block;
-    height: auto;
-    float: auto;
-    margin: 8px;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
   }
+  
+  .hero-image {
+    background-image: url("./back.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+#link_text {
+    padding:10%;
+
+}
+
+
+
 
