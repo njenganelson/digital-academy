@@ -17,29 +17,36 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
-  }
+}
   
-  .hero-image {
+.hero-image {
     background-image: url("./back.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+}
   
-  .hero-text {
-    text-align: center;
+.hero-text {
+    text-align: left;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 10%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
+img{
+    display: block;
+    float: right;
+    position: absolute;
+}
 
-#link_text {
-    padding:10%;
-
+#link-text {
+    left: 70%;
+}
+.about-text {
+    left: 10%;
 }
 
 
