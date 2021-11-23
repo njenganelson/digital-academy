@@ -38,8 +38,8 @@ body {
 }
 img{
     display: block;
+    border: 2px solid red;
     float: right;
-    position: absolute;
 }
 
 #link-text {
@@ -48,7 +48,9 @@ img{
 .about-text {
     left: 10%;
 }
-
+a{
+    font-family: Courier;
+}
 
 
 
