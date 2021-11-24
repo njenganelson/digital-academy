@@ -20,3 +20,7 @@ git clone https://github.com/njenganelson/digital_academy.git
 Once the files are on your machine, open the the digital academy folder in Visual Studio Code to view the html and css files.
 
 To view the page on the browser, click on the ```test.html``` file to view page on browser.
+
+## Learning
+For understanding on css and html, go to [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSS) or [w3schools](https://www.w3schools.com/)
+For github - [Git](https://github.com/)
