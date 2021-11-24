@@ -27,3 +27,6 @@ To view the page on the browser, click on the ```test.html``` file to view page 
 ## Learning
 For understanding on css and html, go to [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSS) or [w3schools](https://www.w3schools.com/)
 For github - [Git](https://github.com/)
+
+## Github Pages
+[Link to web application](https://njenganelson.github.io/digital_academy/)
