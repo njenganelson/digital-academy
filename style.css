@@ -9,7 +9,7 @@ body {
 }
   
 .hero-image {
-    background-image: url("./back.jpg");
+    background-image: url("./images/back.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,10 +24,9 @@ body {
     left: 10%;
     color: white;
 }
-img{
-    display: block;
-    border: 2px solid red;
+#profile-content{
     float: right;
+    border-radius: 8px;
 }
 #link-text {
     left: 70%;
@@ -37,10 +36,6 @@ img{
 }
 a{
     font-family: Courier;
-}
-#profile-content{
-    margin-right: 20%;
-    border: 2px solid red;
 }
 
 
