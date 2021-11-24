@@ -27,6 +27,7 @@ body {
 #profile-content{
     float: right;
     border-radius: 8px;
+    width: 50%;
 }
 #link-text {
     left: 70%;
@@ -35,7 +36,8 @@ body {
     left: 10%;
 }
 a{
-    font-family: Courier;
+    font-family: Calibri;
+    font-weight: bold;
 }
 
 
