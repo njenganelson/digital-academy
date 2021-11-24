@@ -1,21 +1,9 @@
-Building Websites With HTML, CSS
+# Building Websites With HTML, CSS
 
-Getting Started Tools
+## Getting Started Tools
 
-The following tools help make easier to work with sample code.
+The following tools will help make it easier to learn html and css.
 
-git: A tool for managing source code
-Visual Studio Code: A source code editor
+[git](https://github.com/): A version control tool form managing source code
 
-Setup
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-
-Download the ZIP from this location, or run the following git command to clone the files to your machine:
-
-git clone <https://github.com/craigshoemaker/html-css-javascript-getting-started>
-Once the files are on your machine, open the html-css-javascript-getting-started folder in Visual Studio Code.
-
-With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
-
-Resources
-A list of links to resources used throughout this course is available on the Resources page.
+Visual Studio Code: preferred source code editor with great support for web development
