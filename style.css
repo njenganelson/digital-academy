@@ -29,7 +29,6 @@ img{
     border: 2px solid red;
     float: right;
 }
-
 #link-text {
     left: 70%;
 }
@@ -38,6 +37,10 @@ img{
 }
 a{
     font-family: Courier;
+}
+#profile-content{
+    margin-right: 20%;
+    border: 2px solid red;
 }
 
 
