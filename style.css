@@ -1,21 +1,10 @@
 h1{
     color: black;
 }
-.textCenter{
-    font-family: Georgia;
-}
-.textLeft{
-    text-align: center;
-}
-#text_right{
-    color: red;
-}
-.textRight{
-    color:green;
-}
+
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-family: Calibri;
     background-color: lightblue;
 }
   
@@ -31,9 +20,8 @@ body {
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 10%;
-    transform: translate(-50%, -50%);
     color: white;
 }
 img{
@@ -51,6 +39,7 @@ img{
 a{
     font-family: Courier;
 }
+
 
 
 
