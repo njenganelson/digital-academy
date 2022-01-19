@@ -5,10 +5,18 @@ var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
 function validate() {
+
     var genders = document.getElementsByName("gender")
-    if (genders[0].checked == false && genders[1].checked == false) {
+    year = document.getElementById("year").value
+    month = parseInt(document.getElementById("month").value)
+    day = parseInt(document.getElementById("date").value)
+    if (year == null || year == undefined || year == "") {
+        alert("Enter valid year")
+    }
+    else if (genders[0].checked == false && genders[1].checked == false) {
         alert("Select Gender")
-    } else
+    }
+    else
         return true
 }
 
