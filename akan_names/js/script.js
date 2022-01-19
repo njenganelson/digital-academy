@@ -16,7 +16,9 @@ function validate() {
     else if(month == null || month == undefined || month ==""){
         alert("Enter valid month")
     }
-   
+    else if(day == null || day == undefined || day ==""){
+        alert("Enter valid day")
+    }
     else if (genders[0].checked == false && genders[1].checked == false) {
         alert("Select Gender")
     }
