@@ -10,13 +10,13 @@ function validate() {
     year = document.getElementById("year").value
     month = parseInt(document.getElementById("month").value)
     day = parseInt(document.getElementById("date").value)
-    if (year == null || year == undefined || year == "") {
+    if (year == null || year == undefined || year == "" || year >2022) {
         alert("Enter valid year")
     }
-    else if(month == null || month == undefined || month ==""){
+    else if(month == null || month == undefined || month =="" || month<=0 || month>12){
         alert("Enter valid month")
     }
-    else if(day == null || day == undefined || day ==""){
+    else if(day == null || day == undefined || day =="" || day<0 || day>31){
         alert("Enter valid day")
     }
     else if (genders[0].checked == false && genders[1].checked == false) {
