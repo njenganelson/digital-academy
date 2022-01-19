@@ -1,0 +1,16 @@
+.container{
+    margin-top: 5% !important;
+    background-color:rgb(202, 228, 202);
+    border-radius: 10px;
+    padding-bottom: 5%;
+    border: 1px solid;
+}
+
+#getName{
+    background-color:green !important;
+}
+h5{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: normal;
+}   

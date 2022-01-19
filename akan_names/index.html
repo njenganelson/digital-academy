@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="container-fluid">
+    <div class="overlay">
+        <h5>This application should output to the user their Akan name depending on their gender</h5>
+        <div class="container">
+            <h2>Enter Birth Date Details</h2>
+            <form name="myForm" class="form">
+                <div class="form-group">
+                    <label for="number">Year:
+                        <input type="number" class="form-control" id="year" placeholder="Enter Year of Birth"
+                            name="year"></label>
+                    <label for="month">Month:
+                        <input type="number" class="form-control" id="month" placeholder="Enter Month of Birth"
+                            name="month"></label>
+                    <label for="date">Date:
+                        <input type="number" class="form-control" id="date" placeholder="Enter Date of Birth"
+                            name="date">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="month">Gender</label><br>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="gender" id="male">Male &nbsp
+                        </label>
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="gender" id="female"> Female
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" id="getName" class="btn btn-primary">Get Name</button>
+                <br>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
