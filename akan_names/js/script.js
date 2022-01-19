@@ -6,9 +6,10 @@ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
 function validate() {
     var genders = document.getElementsByName("gender")
-    if(genders[0].checked==false && genders[1].checked==false ) {
+    if (genders[0].checked == false && genders[1].checked == false) {
         alert("Select Gender")
-    }
+    } else
+        return true
 }
 
 function getDay() {
@@ -98,5 +99,6 @@ function getAkanName() {
 
 var getNameBtn = document.getElementById("getName")
 getNameBtn.addEventListener("click", function (event) {
+    validate()
     getAkanName()
 })
