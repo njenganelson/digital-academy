@@ -3,9 +3,10 @@
     background-color:rgb(202, 228, 202);
     border-radius: 10px;
     padding-bottom: 5%;
+    border: 1px solid;
 }
 
 #getName{
-    
+    background-color:green !important;
 }
 
