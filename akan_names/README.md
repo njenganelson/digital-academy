@@ -1,7 +1,7 @@
 #### Authors : Nelson Njenga
 
 
-# Application web application to display Akan name based on gender
+# Web application to display Akan name based on gender
 
 ## Getting Started Tools
 
