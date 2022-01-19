@@ -5,8 +5,12 @@ var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
 function validate() {
-
+    var genders = document.getElementsByName("gender")
+    if(genders[0].checked==false && genders[1].checked==false ) {
+        alert("Select Gender")
+    }
 }
+
 function getDay() {
     /*CC = 20
     YY = 21
@@ -19,72 +23,80 @@ function getDay() {
     DD = parseInt(document.getElementById("date").value)
     d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7
     console.log(d)
-    dayOfWeek = Math.floor(d)
-    console.log(dayOfWeek)
+    return (Math.floor(d))
+    //dayOfWeek = (Math.floor(d))
+    //console.log(dayOfWeek)
 }
-function getAkanName() {
-    dayValue = calculateDayValue()
-    getGender()
-}
-getAkanName()
+
 
 function getGender() {
-    var genders = document.getElementsByName("gender");
+    var genders = document.getElementsByName("gender")
     if (genders[0].checked == true) {
-        var gender = "male";
+        var gender = "male"
     }
     else if (genders[1].checked == true) {
-        var gender = "female";
+        var gender = "female"
     }
     else {
-        return false;
+        return false
     }
     switch (gender) {
         case "male":
             if (dayValue == 1) {
-                alert("Your akan name is " + maleNames[0] + "!");
+                alert("Your akan name is " + maleNames[0] + "!")
             }
             else if (dayValue == 2) {
-                alert("Your akan name is " + maleNames[1] + "!");
+                alert("Your akan name is " + maleNames[1] + "!")
             }
             else if (dayValue == 3) {
-                alert("Your akan name is " + maleNames[2] + "!");
+                alert("Your akan name is " + maleNames[2] + "!")
             }
             else if (dayValue == 4) {
-                alert("Your akan name is " + maleNames[3] + "!");
+                alert("Your akan name is " + maleNames[3] + "!")
             }
             else if (dayValue == 5) {
-                alert("Your akan name is " + maleNames[4] + "!");
+                alert("Your akan name is " + maleNames[4] + "!")
             }
             else if (dayValue == 6) {
-                alert("Your akan name is " + maleNames[5] + "!");
+                alert("Your akan name is " + maleNames[5] + "!")
             }
             else if (dayValue == 0) {
-                alert("Your akan name is " + maleNames[6] + "!");
+                alert("Your akan name is " + maleNames[6] + "!")
             }
             break;
         case "female":
             if (dayValue == 1) {
-                alert("Your akan name is  " + femaleNames[0] + "!");
+                alert("Your akan name is  " + femaleNames[0] + "!")
             }
             else if (dayValue == 2) {
-                alert("Your akan name is " + femaleNames[1] + "!");
+                alert("Your akan name is " + femaleNames[1] + "!")
             }
             else if (dayValue == 3) {
-                alert("Your akan name is " + femaleNames[2] + "!");
+                alert("Your akan name is " + femaleNames[2] + "!")
             }
             else if (dayValue == 4) {
-                alert("Your akan name is " + femaleNames[3] + "!");
+                alert("Your akan name is " + femaleNames[3] + "!")
             }
             else if (dayValue == 5) {
-                alert("Your akan name is " + femaleNames[4] + "!");
+                alert("Your akan name is " + femaleNames[4] + "!")
             }
             else if (dayValue == 6) {
                 alert("Your akan name is " + femaleNames[5] + "!");
-            } else if (dayValue == 0) {
-                alert("Your akan name is " + femaleNames[6] + "!");
+            }
+            else if (dayValue == 0) {
+                alert("Your akan name is " + femaleNames[6] + "!")
             }
             break
         default:
     }
 }
+
+function getAkanName() {
+    dayValue = getDay()
+    getGender()
+}
+
+var getNameBtn = document.getElementById("getName")
+getNameBtn.addEventListener("click", function (event) {
+    getAkanName()
+})
