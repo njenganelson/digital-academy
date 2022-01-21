@@ -54,6 +54,7 @@ function getGender() {
     else {
         return false
     }
+    //Switch between genders
     switch (gender) {
         case "male":
             if (dayValue == 1) {
