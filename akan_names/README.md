@@ -31,4 +31,8 @@ For understanding on css and html, go to [MDN](https://developer.mozilla.org/en-
 For github - [Git](https://github.com/)
 
 ## Github Pages
-[Link to web application](https://njenganelson.github.io/digital_academy/)
+[Link to web application](https://njenganelson.github.io/akan-name/)
+
+
+## License
+> [GPL-3.0 License](LICENSE)

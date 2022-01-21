@@ -5,18 +5,17 @@ var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
 function validate() {
-
     var genders = document.getElementsByName("gender")
     year = document.getElementById("year").value
     month = parseInt(document.getElementById("month").value)
     day = parseInt(document.getElementById("date").value)
-    if (year == null || year == undefined || year == "" || year >2022) {
+    if (year == null || year == undefined || year == "" || year > 2022) {
         alert("Enter valid year")
     }
-    else if(month == null || month == undefined || month =="" || month<=0 || month>12){
+    else if (month == null || month == undefined || month == "" || month <= 0 || month > 12) {
         alert("Enter valid month")
     }
-    else if(day == null || day == undefined || day =="" || day<0 || day>31){
+    else if (day == null || day == undefined || day == "" || day < 0 || day > 31) {
         alert("Enter valid day")
     }
     else if (genders[0].checked == false && genders[1].checked == false) {
@@ -114,5 +113,7 @@ function getAkanName() {
 var getNameBtn = document.getElementById("getName")
 getNameBtn.addEventListener("click", function (event) {
     validate()
-    getAkanName()
+    if (validate() == true) {
+        getAkanName()
+    }
 })
